@@ -1,10 +1,10 @@
 /* Imports all the /variables into one file so just have to include one */
 
 /* Colours */
-@import './variables/colours.css';
+@import 'styles/base/variables/colours.css';
 
 /* Media Queries */
-@import './variables/media.css';
+@import 'styles/base/variables/media.css';
 
 /* Mixed variables */
 :root {

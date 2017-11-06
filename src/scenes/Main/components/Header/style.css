@@ -1,10 +1,8 @@
 @import 'styles/base/variables.css';
+@import 'styles/base.css';
 
 .header {
-  composes: padding from '../../../../styles/base.css';
-  padding: 0px;
-  /* position: fixed; */
-  background-color: var(--bluesky);
+  background: linear-gradient(to right, var(--bluenight), var(--bluesky));
   top: 0;
   left: 0;
   width: 100%;

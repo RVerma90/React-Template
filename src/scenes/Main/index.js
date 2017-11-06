@@ -7,6 +7,7 @@ import Raf from './../../lib/Raf';
 import Header from './components/Header';
 
 import Home from './scenes/Home';
+import About from './scenes/About';
 
 import style from './style.css';
 
@@ -61,6 +62,7 @@ class Main extends Component {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
           <Redirect from="*" to="/" />
         </Switch>
       </div>
