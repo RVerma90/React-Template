@@ -16,20 +16,14 @@ class Header extends Component {
     this.state = {
       menuOpen: props.menuOpen
     };
-
-    this.toggleMenu = this.toggleMenu.bind(this);
-  }
-
-  toggleMenu(value) {
-    this.setState({ menuOpen: value });
   }
 
   render() {
-    const { menuOpen } = this.state;
-
     return (
-      <header>
-          <p className={style.mainTop}>Header</p>
+      <header
+        className={style.header}
+      >
+        <NavLink to="/" className={style.logo} />
       </header>
     );
   }

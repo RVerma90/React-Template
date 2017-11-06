@@ -1,30 +1,30 @@
-@import "./../../../../styles/base/variables.css";
+@import "styles/base/variables.css";
 
 .contentWrap {
   @neat-span-columns 12;
 }
 
-.App {
+.app {
   text-align: center;
 }
   
-.App-logo {
+.appLogo {
   animation: AppLogoSpin infinite 20s linear;
   height: 80px;
 }
   
-.App-header {
+.appHeader {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
 }
 
-.App-title {
+.appTitle {
   font-size: 1.5em;
 }
 
-.App-intro {
+.appIntro {
   font-size: large;
 }
 

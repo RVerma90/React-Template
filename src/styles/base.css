@@ -2,7 +2,7 @@
  * Base style import
  */
 
- @import "./base/normalize.css";
- @import "./base/layout.css";
- @import "./base/type.css";
- @import "./base/elements.css";
+ @import "styles/base/normalize.css";
+ @import "styles/base/layout.css";
+ @import "styles/base/type.css";
+ @import "styles/base/elements.css";

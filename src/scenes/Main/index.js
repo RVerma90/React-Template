@@ -61,6 +61,7 @@ class Main extends Component {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Redirect from="*" to="/" />
         </Switch>
       </div>
     );
